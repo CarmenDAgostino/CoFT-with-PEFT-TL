@@ -34,4 +34,4 @@ Il modelli adottati nei test sono BERT e RoBERTa. Le prestazioni del metodo sono
 Con entrambi i modelli, gli esperimenti mostrano come il metodo riesca a raggiungere performance comparabili con il fine-tuning tradizionale basat su LoRA, riducendo sia i tempi che le emissioni.
 
 ![Risultati con BERT](images/risultati%20BERT.png)  
-![Risultati con RoBERTa](images/risultati%20RoBERTa.png)
+![Risultati con RoBERTa](images/risultati%20RoBERTA.png)

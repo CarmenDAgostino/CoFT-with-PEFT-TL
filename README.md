@@ -6,7 +6,7 @@ Il sistema si basa su un pool di **adapter LoRA**, ciascuno derivato da un model
 
 ## Funzionamento del sistema
 
-![Descrizione del sistema](images/diagramma approccio tesi.drawio.png)
+![Descrizione del sistema](images/diagramma%20approccio%20tesi.drawio.png)
 
 1. **Selezione dell'adapter migliore**
    Quando un utente desidera addestrare un modello su un nuovo task target, il primo passo è selezionare dal pool un adapter che riesca a trasferire informazioni utili dal task su cui è stato originariamente addestrato al nuovo compito. Poiché valutare l'intero pool può essere oneroso, il sistema estrae casualmente un sottoinsieme di *N* adapter, sui quali viene poi stimata la trasferibilità.
@@ -33,5 +33,5 @@ Il sistema è stato valutato sfruttando un pool di adapter semplificato contenen
 Il modelli adottati nei test sono BERT e RoBERTa. Le prestazioni del metodo sono state confrontate con un fine-tuning tradizionale basato su LoRA.  
 Con entrambi i modelli, gli esperimenti mostrano come il metodo riesca a raggiungere performance comparabili con il fine-tuning tradizionale basat su LoRA, riducendo sia i tempi che le emissioni.
 
-![Risultati con BERT](images/risultati BERT.png)  
-![Risultati con RoBERTa](images/risultati RoBERTa.png)
+![Risultati con BERT](images/risultati%20BERT.png)  
+![Risultati con RoBERTa](images/risultati%20RoBERTa.png)
